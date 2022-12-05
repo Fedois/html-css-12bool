@@ -1,0 +1,40 @@
+
+.container{
+    background-color: aqua;
+    width: 95vw;
+    margin: auto;
+}
+section{
+    padding: 0 1rem;
+}
+.chain{
+    padding: 2rem 0;
+}
+.chain .box{
+    height: 5px;
+    background-color: red;
+}
+.box{
+    height: 10px;
+    background-color: black;
+}
+.row{
+    justify-content: space-between;
+}
+.T{
+    max-width: 10px;
+}
+.yel .box{
+    background-color: yellow;
+}
+.center{
+    justify-content: center;
+}
+.side > .box{
+    background-color: green;
+}
+.block{
+    flex-direction: column;
+    height: 30px;
+    background-color: blue;
+}
